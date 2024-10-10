@@ -11,6 +11,7 @@ public class Adder {
         int sum = 0;
         while (i < n){
             sum = sum + (a+b);
+            i++;
         }
         return sum;
     }
